@@ -1,0 +1,109 @@
+
+#tracks #tracks-content .tracks-preview .tracks-img {
+    height: 30vh;
+    max-width: 25vw;
+    margin-top: calc(-1 * 30vh / 2);
+}
+
+a, body, div, footer, form, h1, h2, h3, h4, header, html, img, input, li, main, nav, ol, p, section, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    line-height: inherit;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#tracks #tracks-content .tracks-preview {
+    width: 50%;
+    height: 25vh;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#tracks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    position: relative;
+}
+body {
+    font-family: "Proxima Nova",sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+#tracks #tracks-content .tracks-preview .tracks-title {
+    z-index: 2;
+    color: #f0ffe4;
+    font-size: calc(max(2vw,1.2rem));
+    background-color: rgba(15,61,102,.5);
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 20px;
+}
+
+#tracks-content{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#tracks #tracks-content .tracks-preview:hover .tracks-img {
+    -webkit-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+}
